@@ -1,0 +1,42 @@
+Last login: Sat Mar 18 15:12:08 on console
+Protools@Tonys-Mac-Pro ~ % 
+git config --global user.name "yuanyutao1997"
+git config --global user.email "typroduction@foxmail.com"
+
+cd /Users/tymusicstudioa/Documents/GitHub/Haloverse
+
+git clone https://github.com/yuanyutao1997/Haloverse.git
+
+cd Haloverse
+
+git add .
+
+git commit -m "Initial commit"
+
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
