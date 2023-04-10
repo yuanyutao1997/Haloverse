@@ -9,10 +9,48 @@
         .english {
             display: none;
         }
+         /* 首页样式 */
+    .home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(images/home-bg.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .home h1 {
+      font-size: 3rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    .home p {
+      font-size: 1.5rem;
+      color: #fff;
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .home button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      background-color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
     </style>
 </head>
 <body>
     <header class="chinese">
+        <div class="top-bar">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Haloverse">
+                </div>
         <nav>
             <ul>
                 <li><a href="#home">首页</a></li>
@@ -26,6 +64,11 @@
         <button id="language-switch">English / 中文</button>
     </header>
     <header class="english" style="display:none;">
+        <div class="top-bar">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Haloverse">
+                </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
