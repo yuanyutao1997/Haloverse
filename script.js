@@ -17,16 +17,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const chineseText = document.querySelectorAll(".chinese");
     const englishText = document.querySelectorAll(".english");
     let language = "chinese";
-
+  
     languageSwitch.addEventListener("click", function () {
-        if (language === "chinese") {
-            chineseText.forEach(text => text.style.display = "none");
-            englishText.forEach(text => text.style.display = "block");
-            language = "english";
-        } else {
-            chineseText.forEach(text => text.style.display = "block");
-            englishText.forEach(text => text.style.display = "none");
-            language = "chinese";
-        }
+      if (language === "chinese") {
+        chineseText.forEach(text => text.style.display = "none");
+        englishText.forEach(text => text.style.display = "block");
+        language = "english";
+      } else if (language === "english") {
+        chineseText.forEach(text => text.style.display = "block");
+        englishText.forEach(text => text.style.display = "none");
+        language = "chinese";
+      }
     });
-});
+  });
+  
