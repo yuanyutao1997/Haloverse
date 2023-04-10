@@ -9,10 +9,10 @@
         .english {
             display: none;
         }
-    </style>    
+    </style>
 </head>
 <body>
-    <header>
+    <header class="chinese">
         <nav>
             <ul>
                 <li><a href="#home">首页</a></li>
@@ -23,7 +23,19 @@
                 <li><a href="#contact">联系我们</a></li>
             </ul>
         </nav>
-        <!-- 添加中英文切换按钮 -->
+        <button id="language-switch">English / 中文</button>
+    </header>
+    <header class="english" style="display:none;">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#news">News & Events</a></li>
+                <li><a href="#support">Support & Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
         <button id="language-switch">English / 中文</button>
     </header>
 
@@ -36,6 +48,7 @@
             <h2>我们的产品</h2>
             <div class="product-info">
                 <div class="chinese">
+                    <!-- 添加中文内容 -->
                     <h3>HoloCabin，打造真实、立体、实时的全息影像体验。</h3>
 	                    <h4>为现场演出与活动提升体验</h4>
 	                    <p>全息仓为艺术家与观众之间带来全新互动层次。巡演、见面会、VIP活动、展览、会议、私人活动、音乐会和体育赛事焕然一新。全息仓为现场活动注入全新维度，让惊艳时刻栩栩如生。全息仓让任何现场活动更加激动人心、引人入胜和易于分享。</p>
@@ -50,6 +63,7 @@
 
                 </div>
                 <div class="english">
+                    <!-- 添加英文内容 -->
                     <h3>HoloCabin: Creating a true-to-life, volumetric, real-time holographic experience.</h3>
 	                    <h4>Amplified Experiences for Live Shows & Events</h4>
 	                    <p>HoloCabin brings new levels of interactivity between the artist and the audience. Reimagining touring, meet & greets, VIP events, trade shows, conventions, private events, concerts, and sporting events. HoloCabin infuses a whole new dimension to live events, bringing awe-inspiring moments to life. Make any live event more exciting, engaging, and shareable with HoloCabin.</p>
@@ -82,10 +96,9 @@
                 <p>了解我们的最新动态和活动信息……</p>
             </div>
             <div class="english">
-                <p>Learn about our latest news and event information……</p>
+                <p>Stay informed about our latest news and event information……</p>
             </div>
         </section>
-
         <section id="support">
             <h2>支持与服务</h2>
             <div class="chinese">
@@ -95,20 +108,17 @@
                 <p>We provide comprehensive customer support and services……</p>
             </div>
         </section>
-        
+    
         <section id="contact">
             <h2>联系我们</h2>
             <div class="chinese">
                 <p>如需进一步了解我们的产品和服务，请与我们联系……</p>
             </div>
             <div class="english">
-                <p>If you would like to learn more about our products and services, please contact us……</p>
+                <p>If you want to learn more about our products and services, please contact us……</p>
             </div>
         </section>
     </main>
-    <footer>
-        <!-- ... -->
-    </footer>
     
     <script src="script.js"></script>
 </body>
