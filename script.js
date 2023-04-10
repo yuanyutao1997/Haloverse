@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const chineseText = document.querySelectorAll(".chinese");
     const englishText = document.querySelectorAll(".english");
     let language = "chinese";
-  
+    
     languageSwitch.addEventListener("click", function () {
       if (language === "chinese") {
         chineseText.forEach(text => text.style.display = "none");
@@ -30,4 +30,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+  
   
