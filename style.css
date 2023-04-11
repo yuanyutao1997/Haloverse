@@ -1,4 +1,17 @@
 /* 通用样式 */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.banner {
+    /* 在这里添加滚动横幅图片和slogan的样式 */
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
